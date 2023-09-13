@@ -14,8 +14,6 @@ class DoacaoModel extends Model
      * @var array<int, string>
      */
     protected $fillable = [
-        'login',
-        'email',
-        'password',
+        'local'
     ];
 }
